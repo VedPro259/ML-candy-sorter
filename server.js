@@ -8,7 +8,7 @@ const { ReadlineParser } = require('@serialport/parser-readline');
 const { Server } = require('socket.io');
 
 const port = new SerialPort({
- path: '/dev/cu.usbmodem1101',
+ path: '//enter your path here',
  baudRate: 9600,
  dataBits: 8,
  parity: 'none',
